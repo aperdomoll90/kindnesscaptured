@@ -1,4 +1,4 @@
-![Project Logo](https://github.com/aperdomoll90/kindnesscaptured/blob/main/public/logo512.png)
+![Project Logo](https://github.com/aperdomoll90/kindnesscaptured/blob/main/public/logo.jpg)
 
 # Kindness Captured
 
