@@ -62,9 +62,7 @@ function App() {
       <Router>
         <div className='App'>
           <div className='App-header'>
-            <div className='logo-wrapper'>
-              <img src={logo} alt='logo' className='logo' />
-            </div>
+            <img src={logo} alt='logo' className='logo' />
           </div>
           <Routes>
             <Route path='/orderstatus' element={<OrderStatus />} />
