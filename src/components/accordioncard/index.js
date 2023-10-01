@@ -11,14 +11,14 @@ function AccordionCard({ props }) {
   function toggleAccordion() {
     setActiveState(setActive === '' ? '-active' : '')
   }
-  const itemLength = props.items.length
+  const condition = props.items.condition
   const item = props.items[0]
 
   return (
     <div className={`accordion-card accordion-card${setActive}`}>
       <div className='accordion-order-card-header'>
         <p className='accordion-order-card-title'> Order No: {props.orderId} </p>
-        <p className='accordion-order-card-counter'> Amount of Items: {itemLength} </p>
+        <p className='accordion-order-card-counter'> Condition: {props.items[0].condition} </p>
       </div>
       <button className='accordion-order-card-button' onClick={toggleAccordion}>
         {!setActive ? 'View' : 'Close'}
